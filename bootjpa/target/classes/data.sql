@@ -1,0 +1,5 @@
+insert into alien values (101, 'saurav')
+insert into alien values (102, 'mukesh')
+insert into alien values (103, 'deepak')
+insert into alien values (104, 'mukesh')
+insert into alien values (105, 'mukesh')
