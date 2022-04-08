@@ -1,0 +1,5 @@
+insert into alien values (101, 'saurav', 'java')
+insert into alien values (102, 'mukesh', 'spring')
+insert into alien values (103, 'deepak', 'react')
+insert into alien values (104, 'mukesh', 'java')
+insert into alien values (105, 'mukesh', 'java')
