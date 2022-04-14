@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @SpringBootApplication
-//@ComponentScan(basePackages=  {"com.example"})
+
 public class EmployeeTrackingApplication {
 
 	public static void main(String[] args) {
@@ -22,8 +22,11 @@ public class EmployeeTrackingApplication {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**").allowedOrigins("*").allowedMethods("GET", "POST","PUT", "DELETE");
 
-
 			}
 		};
 	}
+
+
+
+
 }
